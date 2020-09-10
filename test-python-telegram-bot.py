@@ -12,7 +12,7 @@ from telegram import MessageEntity
 import pdfkit
 from tempfile import *
 
-BOT_TOKEN='===PASTE-API-TOKEN-HERE==='
+BOT_TOKEN='1059789534:AAE2SZ-GfXVRYPjv43UKV7Ux_J6tut2flcY'
 
 def start(bot, update):
     bot.send_message(chat_id=update.message.chat_id, text="I'm a bot, please talk to me!")
